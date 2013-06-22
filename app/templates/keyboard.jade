@@ -1,0 +1,5 @@
+- for(var i = 0, len = scale.notes.length; i < len; i++) {
+  - note = scale.notes[i]
+  - pctWidth = (100 / len) + '%'
+  .note(style="width:#{pctWidth}; display:inline-block; background:#{note.color}")= "&nbsp;" + note.id.toUpperCase()
+- }

@@ -1,0 +1,24 @@
+html, body {
+  font: 16px "helvetica";
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.keyboard {
+  height: 100%;
+  
+  .note {
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    line-height: 1.4;
+    font-size: 1.4em;
+    color: rgba(0,0,0,.7);
+    font-weight: bold;
+    
+    &.down {
+      opacity: .5;
+    }
+  }
+}

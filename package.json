@@ -1,0 +1,16 @@
+{
+  "name": "lttp",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "jade": "~0.30.0",
+    "grunt": "~0.4.0",
+    "grunt-contrib-watch": "~0.1.4",
+    "grunt-contrib-sass": "git://github.com/gruntjs/grunt-contrib-sass.git#aa0f821697",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-connect": "~0.2.0"
+    "grunt-contrib-jade": "~0.5.0",
+  }
+}
